@@ -1,6 +1,7 @@
 # FLASK CON PYTHON
 
 **Universidad de Python en UDEMY** 
+## Autor: Global Mentoring Ing. Ubaldo Acosta (Udemy)
 
 Se utiliza para hacer aplicaciones con Python.
 Framework aplicaciones de tipo rest o web.
