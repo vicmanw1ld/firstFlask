@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">    
+    <title>mostrar nombre</title>
+</head>
+<body>
+    <h1>MOSTRAR VALORES </h1>
+    <p>Tu nombre es: {{nombre_llave}}</p>
+    <h1>{{nombre_llave}}</h1>
+    <div>
+        <a href="{{url_for('redireccionar')}}">INICIO</a>
+    </div>
+    
+</body>
+</html>
